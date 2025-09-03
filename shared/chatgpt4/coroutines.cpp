@@ -137,7 +137,7 @@ void write_pbm(const std::string& filename, const std::vector<uint8_t>& bitmap, 
 
 // ------------------ Main ------------------
 int main(int argc, char* argv[]) {
-    int width = 1920, height = 1080, max_iter = 1000, threads = std::thread::hardware_concurrency();
+    int width = 192000, height = 10800, max_iter = 1000, threads = std::thread::hardware_concurrency();
     double x_center = -0.75, y_center = 0.0, scale = 3.0;
 
     // Parse -t

@@ -62,8 +62,8 @@ static void usage(const char* prog) {
 }
 
 int main(int argc, char** argv) {
-    int    width     = 1920;
-    int    height    = 1080;
+    int    width     = 192000;
+    int    height    = 10800;
     int    max_iter  = 1000;
     double x_center  = -0.75;
     double y_center  = 0.0;

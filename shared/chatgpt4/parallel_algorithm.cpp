@@ -42,8 +42,8 @@ void write_pbm(const std::string& filename, const std::vector<uint8_t>& mask, in
 
 // ------------------ Main ------------------
 int main(int argc, char** argv) {
-    int width = 1920;
-    int height = 1080;
+    int width = 192000;
+    int height = 10800;
     int max_iter = 1000;
     int threads = std::thread::hardware_concurrency();
     double x_center = -0.75;
@@ -57,16 +57,16 @@ int main(int argc, char** argv) {
         }
     }
 
-    if (argc >= 3) width  = std::max(16, std::atoi(argv[1]));
-    if (argc >= 4) height = std::max(16, std::atoi(argv[2]));
-    if (argc >= 5) max_iter = std::atoi(argv[3]);
-    if (argc >= 7) {
-        x_center = std::atof(argv[4]);
-        y_center = std::atof(argv[5]);
-    }
-    if (argc >= 8) scale = std::atof(argv[6]);
+    //if (argc >= 3) width  = std::max(16, std::atoi(argv[1]));
+    //if (argc >= 4) height = std::max(16, std::atoi(argv[2]));
+    //if (argc >= 5) max_iter = std::atoi(argv[3]);
+    //if (argc >= 7) {
+    //    x_center = std::atof(argv[4]);
+    //    y_center = std::atof(argv[5]);
+    //}
+    //f (argc >= 8) scale = std::atof(argv[6]);
 
-    std::cout << "Threads: " << threads << ", Size: " << width << "x" << height << ", Max iter: " << max_iter << "\n";
+    //std::cout << "Threads: " << threads << ", Size: " << width << "x" << height << ", Max iter: " << max_iter << "\n";
 
     // Set thread count via environment variable (honored by TBB and libparallel)
     std::string env = "OMP_NUM_THREADS=" + std::to_string(threads);
@@ -100,11 +100,11 @@ int main(int argc, char** argv) {
     double runtime_ms = std::chrono::duration<double, std::milli>(t1 - t0).count();
     // ---------- Compute timer ends ----------
 
-    std::cout << "Mandelbrot computation done in " << runtime_ms << " ms\n";
+    //std::cout << "Mandelbrot computation done in " << runtime_ms << " ms\n";
 
     write_pbm("mandelbrot.pbm", mask, width, height);
-    std::cout << "Saved image to mandelbrot.pbm\n";
-
+    //std::cout << "Saved image to mandelbrot.pbm\n";
+    std::cout << threads << "," << runtime_ms * 0.001 << std::endl;
     return 0;
 }
 

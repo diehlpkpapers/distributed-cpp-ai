@@ -51,7 +51,7 @@ static void write_pbm(const std::string& path,
 // ---------- Main ----------
 int main(int argc, char** argv) {
     // Defaults
-    int width = 1920, height = 1080, max_iter = 1000;
+    int width = 192000, height = 10800, max_iter = 1000;
     double x_center = -0.75, y_center = 0.0, scale = 3.0;
     int threads = static_cast<int>(std::thread::hardware_concurrency());
     if (threads <= 0) threads = 1;
