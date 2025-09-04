@@ -8,8 +8,7 @@
 #SBATCH --mail-user=pdiehl@cct.lsu.edu
 
 
- for type in parallel_algorithm; do   
-     #coroutines async openmpi parallel_algorithm; do
+ for type in coroutines async openmpi parallel_algorithm; do
      for ((i=24; i>=1; i--)); do
          
         ./$type -t $i 19200000000 1080000000 10000 -0.75 0.0 3.0 >> data_$type.dat
