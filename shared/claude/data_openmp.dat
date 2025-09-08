@@ -1,0 +1,408 @@
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 24
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 177239 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 177239 ms
+  Pixels per second: 11699456
+  Threads used: 24
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 23
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 182523 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 182523 ms
+  Pixels per second: 11360760
+  Threads used: 23
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 22
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 187237 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 187237 ms
+  Pixels per second: 11074734
+  Threads used: 22
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 21
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 193055 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 193055 ms
+  Pixels per second: 10740980
+  Threads used: 21
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 20
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 199497 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 199497 ms
+  Pixels per second: 10394141
+  Threads used: 20
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 19
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 209507 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 209507 ms
+  Pixels per second: 9897521
+  Threads used: 19
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 18
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 220544 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 220544 ms
+  Pixels per second: 9402205
+  Threads used: 18
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 17
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 237804 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 237804 ms
+  Pixels per second: 8719786
+  Threads used: 17
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 16
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 248024 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 248024 ms
+  Pixels per second: 8360481
+  Threads used: 16
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 15
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 271295 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 271295 ms
+  Pixels per second: 7643340
+  Threads used: 15
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 14
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 283684 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 283684 ms
+  Pixels per second: 7309541
+  Threads used: 14
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 13
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 313918 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 313918 ms
+  Pixels per second: 6605546
+  Threads used: 13
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 12
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 336972 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 336972 ms
+  Pixels per second: 6153627
+  Threads used: 12
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 11
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 368401 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 368401 ms
+  Pixels per second: 5628649
+  Threads used: 11
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 10
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 398598 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 398598 ms
+  Pixels per second: 5202233
+  Threads used: 10
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 9
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 440707 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 440707 ms
+  Pixels per second: 4705166
+  Threads used: 9
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 8
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 495911 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 495911 ms
+  Pixels per second: 4181395
+  Threads used: 8
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 7
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 566797 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 566797 ms
+  Pixels per second: 3658452
+  Threads used: 7
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 6
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 660712 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 660712 ms
+  Pixels per second: 3138432
+  Threads used: 6
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 5
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 793697 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 793697 ms
+  Pixels per second: 2612583
+  Threads used: 5
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 4
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 991357 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 991357 ms
+  Pixels per second: 2091678
+  Threads used: 4
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 3
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 1321360 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 1321360 ms
+  Pixels per second: 1569292
+  Threads used: 3
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 2
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 1980702 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 1980702 ms
+  Pixels per second: 1046901
+  Threads used: 2
+Mandelbrot Set Generator (Parallel with OpenMP)
+Configuration:
+  Resolution: 192000x10800
+  Max iterations: 1000
+  Threads: 1
+  Output file: mandelbrot.pbm
+
+Generating Mandelbrot set...
+Computation completed in 3972645 ms
+Writing output file...
+Mandelbrot set saved to mandelbrot.pbm
+
+Performance Summary:
+  Total pixels: 2073600000
+  Computation time: 3972645 ms
+  Pixels per second: 521969
+  Threads used: 1
