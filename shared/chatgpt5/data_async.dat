@@ -24,3 +24,51 @@ threads,time
 3,
 2,
 1,
+Compute time (no I/O): 208723 ms with 24 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 218980 ms with 23 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 227577 ms with 22 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 239639 ms with 21 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 250209 ms with 20 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 264741 ms with 19 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 277780 ms with 18 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 295412 ms with 17 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 312302 ms with 16 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 334203 ms with 15 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 356689 ms with 14 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 385414 ms with 13 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 415331 ms with 12 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 455801 ms with 11 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 496683 ms with 10 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 555348 ms with 9 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 619000 ms with 8 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 712951 ms with 7 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 823344 ms with 6 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 993719 ms with 5 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 1.23162e+06 ms with 4 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 1.64745e+06 ms with 3 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 2.4154e+06 ms with 2 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)
+Compute time (no I/O): 4.82797e+06 ms with 1 threads
+Wrote mandelbrot.pbm (192000x10800, max_iter=1000)

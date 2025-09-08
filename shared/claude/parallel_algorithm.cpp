@@ -116,8 +116,8 @@ void print_usage(const char* program_name) {
 int main(int argc, char* argv[]) {
     // Default parameters
     int num_threads = std::thread::hardware_concurrency();
-    int width = 800;
-    int height = 600;
+    int width = 192000;
+    int height = 10800;
     int max_iterations = 1000;
     std::string output_filename = "mandelbrot.pbm";
     

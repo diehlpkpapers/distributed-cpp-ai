@@ -63,8 +63,8 @@ struct Task {
 
 // Configuration structure
 struct MandelbrotConfig {
-    int width = 800;
-    int height = 600;
+    int width = 192000;
+    int height = 10800;
     double x_min = -2.5;
     double x_max = 1.0;
     double y_min = -1.2;

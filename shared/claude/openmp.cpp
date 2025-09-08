@@ -13,7 +13,7 @@ private:
     double x_min, x_max, y_min, y_max;
     
 public:
-    MandelbrotGenerator(int w = 1920, int h = 1080, int max_iter = 1000) 
+    MandelbrotGenerator(int w = 192000, int h = 10800, int max_iter = 1000) 
         : width(w), height(h), max_iterations(max_iter),
           x_min(-2.5), x_max(1.0), y_min(-1.25), y_max(1.25) {}
     
@@ -90,8 +90,8 @@ void print_usage(const char* program_name) {
 
 int main(int argc, char* argv[]) {
     int num_threads = omp_get_max_threads();
-    int width = 1920;
-    int height = 1080;
+    int width = 192000;
+    int height = 10800;
     int max_iterations = 1000;
     std::string output_filename = "mandelbrot.pbm";
     
