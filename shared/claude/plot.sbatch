@@ -9,7 +9,7 @@
 
 module load tbb
 
- for type in parallel_algorithm; do # in async openmp parallel_algorithm; do
+ for type in async openmp parallel_algorithm coroutines_fixed; do
      for ((i=24; i>=1; i--)); do
         ./$type -t $i  >> data_$type.dat
         done
