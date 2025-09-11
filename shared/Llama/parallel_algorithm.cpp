@@ -18,13 +18,18 @@ std::vector<Pixel> generateMandelbrot(int width, int height, int maxIterations, 
     std::vector<Pixel> pixels(width * height);
 
     // Set the number of threads for parallel execution
-    std::execution::parallel_policy policy{std::execution::par_unseq};
-    policy.execution_policy_tag::concurrency_hint = numThreads;
+    //std::execution::parallel_policy policy{std::execution::par_unseq};
+    //policy.execution_policy_tag::concurrency_hint = numThreads;
 
     // Generate the Mandelbrot set in parallel
-    std::for_each(policy, std::begin(pixels), std::end(pixels), [&](Pixel& pixel) {
-        int x = pixel.x = std::distance(std::begin(pixels), &pixel) % width;
-        int y = pixel.y = std::distance(std::begin(pixels), &pixel) / width;
+    std::for_each(std::execution::par_unseq, std::begin(pixels), std::end(pixels), [&](Pixel& pixel) {
+        //int x = pixel.x = std::distance(std::begin(pixels), &pixel) % width;
+        //int y = pixel.y = std::distance(std::begin(pixels), &pixel) / width;
+        std::size_t i = &pixel - pixels.data();
+        int x = static_cast<int>(i % width);
+        int y = static_cast<int>(i / width);
+        pixel.x = x;
+        pixel.y = y;
 
         std::complex<double> c(x * 3.5 / width - 2.5, y * 2.0 / height - 1.0);
         std::complex<double> z(0.0, 0.0);
