@@ -61,9 +61,9 @@ void writePBM(const std::vector<Pixel>& pixels, int width, int height, int maxIt
 }
 
 int main(int argc, char* argv[]) {
-    int width = 800;
-    int height = 800;
-    int maxIterations = 255;
+    int width = 192000;
+    int height = 10800;
+    int maxIterations = 1000;
     int numThreads = std::thread::hardware_concurrency();
     std::string filename = "mandelbrot.pbm";
 

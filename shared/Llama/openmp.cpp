@@ -46,9 +46,9 @@ void writePBM(const char* filename, int width, int height, int* pixels) {
 }
 
 int main(int argc, char** argv) {
-    int width = 800;
-    int height = 800;
-    int maxIterations = 255;
+    int width = 192000;
+    int height = 10800;
+    int maxIterations = 1000;
     int numThreads = 4;
     double xmin = -2.5;
     double xmax = 1.5;

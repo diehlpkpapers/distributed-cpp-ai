@@ -39,9 +39,9 @@ std::vector<Pixel> generateRow(int row, int width, int height, int maxIterations
 }
 
 int main(int argc, char* argv[]) {
-    int width = 800;
-    int height = 800;
-    int maxIterations = 256;
+    int width = 192000;
+    int height = 10800;
+    int maxIterations = 1000;
     int numThreads = std::thread::hardware_concurrency();
     std::string outputFile = "mandelbrot.pbm";
 
