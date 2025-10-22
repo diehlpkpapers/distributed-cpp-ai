@@ -1,3 +1,17 @@
+# Coroutines
+
+```bash
+g++ -std=c++20 -O3 -pthread coroutines.cpp -o coroutines
+coroutines.cpp: In function ‘Task generateMandelbrot(Config, std::vector<unsigned char>&, int, int)’:
+coroutines.cpp:59:5: error: no member named ‘return_void’ in ‘std::__n4861::__coroutine_traits_impl<Task, void>::promise_type’ {aka ‘Task::promise_type’}
+   59 |     co_return;
+      |     ^~~~~~~~~
+coroutines.cpp: In lambda function:
+coroutines.cpp:103:13: error: no member named ‘await_ready’ in ‘Task’
+  103 |             co_await generateMandelbrot(config, pixels, startRow, endRow);
+      |             ^~~~~~~~
+make: *** [Makefile:2: all] Error 1
+```
 
 # Asynchronous programming
 
